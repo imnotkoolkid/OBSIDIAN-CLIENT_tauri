@@ -1,0 +1,21 @@
+{
+  "name": "obsidian-client",
+  "private": true,
+  "version": "0.0.1",
+  "description": "High-performance client for Kirka.io",
+  "type": "module",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "test": "tauri dev",
+    "preview": "tauri dev --release"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.6.3"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
